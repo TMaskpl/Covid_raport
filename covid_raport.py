@@ -14,7 +14,7 @@ import os
 import sys
 from pathlib import Path
 
-mails = ['daniel@niemczok.pl', 'rowna@o2.pl']
+mails = ['mail1', 'mail2']
 
 cd = datetime.today().strftime('%Y-%m-%d')
 
@@ -75,7 +75,7 @@ def send_mail(toaddr):
     LOG = open('covid_raport.txt')
     DATA = LOG.read()
 
-    fromaddr = 'pomoc@niemczok.pl'
+    fromaddr = 'biuro@tmask.pl'
 
     message = # Hasło do poczty z której wysyłamy raport
 
