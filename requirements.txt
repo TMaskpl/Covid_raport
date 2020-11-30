@@ -1,2 +1,2 @@
-requestes
-bs4
+requestes==2.22.0
+bs4==0.0.1
