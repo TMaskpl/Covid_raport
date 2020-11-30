@@ -3,8 +3,7 @@ Python covid raport - google news send emails
 
 
 # Install 
-pip3 install bs4
-pip3 install requests
+pip3 install -r requirements.txt
 
 # Run Python 3
 
